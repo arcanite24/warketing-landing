@@ -63,3 +63,50 @@
     visibility: visible;
     opacity: 1;
 }
+
+@media only screen and (min-width: 768px) {
+  .registro-img {
+    margin-top: -10rem;
+  }
+  .foco-persona {
+    margin-top: -5rem;
+  }
+  .graficas {
+    margin-bottom: -4rem;
+  }
+  .paginas {
+    margin-top: -10rem;
+  }
+  .grafica-otra {
+    margin-top: -10rem;
+  }
+  .escalera {
+    margin-top: -15rem;
+    margin-left: -5rem;
+  }
+  .lentes {
+    margin-left: -20rem;
+    margin-bottom: -10rem;
+  }
+  .check {
+    margin-top: -20rem;
+  }
+  .manos {
+    margin-top: -25rem;
+    margin-right: -10rem;
+  }
+  .mundo {
+    margin-right: -10rem;
+  }
+  .mail {
+    margin-right: -10rem;
+  }
+  .cerebro {
+    margin-top: -5rem;
+    margin-left: -5rem;
+    width: 140%;
+  }
+  .tablet {
+    margin-right: -10rem;
+  }
+}
