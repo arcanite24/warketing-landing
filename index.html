@@ -47,7 +47,11 @@
         <img src="http://warketingcg.com/img/piloto_warketing_2017_Investigacion_de_mercados.png" alt="Logo Warketing" class="img-responsive grafica-otra">
       </div>
       <div class="col-xs-3 col-sm-3 col-md-2 img-container tooltip">
-        <img src="http://warketingcg.com/img/foco.png" alt="Logo Warketing" class="img-responsive">
+        <script>
+          FOCO_OFF = 'http://warketingcg.com/img/foco.png';
+          FOCO_ON  = '/img/foco_on.png';
+        </script>
+        <img src="http://warketingcg.com/img/foco.png" alt="Logo Warketing" class="img-responsive" onmouseover="this.src = FOCO_ON" onmouseout="this.src = FOCO_OFF">
       </div>
       <div class="col-xs-3 col-sm-3 col-md-2 img-container tooltip">
         <span class="tooltiptext">Capacitación a fuerza de venta</span>
